@@ -12,7 +12,7 @@ If you want to use python to analyze and plot the model output, I've put togethe
 ## Assignment
 
 ### Model configuration
-1. George Bryan has kindly provided some example namelists for running CM1 on the website [here](http://www2.mmm.ucar.edu/people/bryan/cm1/namelists/). Get the namelist for the squall line case. Write a paragraph summarizing the model configuration that is described in this namelist (write this as if you were writing a journal article about these simulations: enough information that the reader could set up an identical (or very similar) simulation, but not simply listing off every selected option.) You can use a table if you wish.
+1. George Bryan has kindly provided some example namelists for running CM1 in the run/config_files subdirectory of the model code. Get the namelist for the squall line case. Write a paragraph summarizing the model configuration that is described in this namelist (write this as if you were writing a journal article about these simulations: enough information that the reader could set up an identical (or very similar) simulation, but not simply listing off every selected option.) You can use a table if you wish.
 
 2. Before running any simulations, we’re going to make a couple small changes to the namelist: turn on the output of pressure and potential temperature perturbations (prspert and thpert.) Also, increase the output frequency so that output files are written every 3 minutes (instead of the default 15 minutes). If you want output files in netcdf (rather than the default GrADS format), make sure to change that setting in the namelist as well.
 
